@@ -1,0 +1,83 @@
+tarefal input("digite sua tarefa\n")
+
+2 print(tarefal "foi selecionado como tarefa\n")
+
+3
+
+4 prazo (input("deseja adicionar um prazo ?\n "))
+
+3
+
+6 se prazo == "sim":
+
+prazo (input("digite seu prazo\n"))
+
+7+
+
+B + print(prazo "seu prazo foi realizado\n")
+
+9 + outro:
+
+10
+
+print(tarefal "foi adicionada como tarefain")
+
+11
+
+12
+
+13 prioridade (input("esta tarefa é uma prioridade ?\n"))
+
+14
+
+15 se prioridade "sim":
+
+16.
+
+(input("digite o nível de sua prioridade"))
+
+17
+
+18 elif prioridade "não":
+
+19
+
+print("Essa tarefa não é classificada como uma prioridade")
+
++ 20
+
+21 se prioridade "alta":
+
+22
+
+print("esta tarefa foi adicionada como prioridade alta")
+
+23+
+
+24 elif prioridade "midia":
+
+25
+
+print("sua tarefa foi adicionada como prioridade de mídia")
+
+26
+
+27 elif prioridade "baixa:
+
+25 print("sua tarefa foi adicionada como prioridade baixa")
+
+29
+
+30 31 - tarefal Input("gostaria de adicionar sua segunda tarefa ?") +
+
+32 if tarefal "não":
+
+33 + print("você voltará para o menu principal")
+
+34
+
++
+
+35 elif tarefal "sim":
+
+36 print("va para sua segunda tarefa")

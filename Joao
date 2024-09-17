@@ -1,0 +1,13 @@
+def exibir_resumo(nome, posiçao, anos_jogados, conquistas):
+    print("\n---Resumo da Carreira---")
+    print(f"Nome do Jogador:{nome}")
+    print(f"Posição:{posiçao}")
+    print(f"Anos Jogados:{anos_jogados}")
+    print(f"Conquistas:{conquistas}")
+
+    nome = input("Digite o nome do Jogador:")
+    posiçao = input("Digite a posiçao do Jogador (ex: goleiro, atacante, etc):")
+    anos_jogados = int(input("Digite Por Quantos anos o jogador jogou:"))
+    conquistas = input(" Digite as Conquistas do Jogador:")
+
+    exibir_resumo(nome,posiçao,anos_jogados,conquistas)

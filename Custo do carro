@@ -1,5 +1,5 @@
-preço_por_dia = 60
-preço_por_km = 15
+preço_por_dia = 60.00
+preço_por_km = 15.00
 
 dias_alugados = float(input("Digite a quantidade de dias que o carro foi alugado:"))
 km_percorridos = float(input("Digite a quantidade de km percorridos com o carro:"))

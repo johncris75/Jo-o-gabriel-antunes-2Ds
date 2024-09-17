@@ -1,0 +1,24 @@
+#Função para calcular a prestação mensal
+def calcular_prestacao(valor_casa, meses):
+    return valor_casa/meses
+
+#Lendo as informaçoes do usuario
+valor_casa = float(input("Digite o valor da casa: R$"))
+salario = float(input("Digite o seu salario: R$"))
+meses = int(input("Digite o numero de meses para pagamento:"))
+
+#Calculando a prestaçao mensal
+prestacao_mensal = calcular_prestacao(valor_casa, meses)
+
+#Calculando 30% do salario
+limite_prestacao = salario*0.30
+
+#Exibindo os Resultados
+print(f"\nValor da prestação mensal: R${prestacao_mensal:.2f}")
+print(f"Limite de 30% do salrio: R${limite_prestacao:.2f}")
+
+#Verificando se o emprestimo e aprovado
+if prestacao_mensal <= limite_prestacao:
+    print("Empréstimo aprovado!")
+else:
+    print("Empréstimo negado! A prestação mensal ultrapassa 30% do seu salário.") 

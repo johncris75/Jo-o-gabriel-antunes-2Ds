@@ -1,0 +1,29 @@
+viza, jorge e matheus", "fernando e sorocata, tlagulims")
+
+cantores [
+
+4 palco
+
+5
+
+6 para i no intervalo (4):
+
+7 cantores.append(Input('digite o nome dos cantores que frel presentar
+
+8 se cantores[1]v[1]:
+
+9 palco palco 1
+
+10 imprimir(palco)
+
+11
+
+cantores.remove(cantores[3])
+
+12 novo cantor input('leonardo)
+
+13
+
+14
+
+cantores.append(novo cantor) | #cantor que não vai apresentar

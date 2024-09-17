@@ -1,0 +1,43 @@
+midia 7
+
+2
+
+3 notal int(input("digite sua nota"))
+
+4 notaz Int(input("digite sua nota"))
+
+5 nota3 int(input("digite sua nota"))
+
+6
+
+7
+
+.
+
+calcular (notal notaž nota3)
+
+10
+
+21
+
+midin calcular / 3
+
+print(f" sus midis é (media)")
+
+12
+
+13
+
+14
+
+se aidiac 6
+
+print("reprovado ")
+
+9
+
+15 midian elif 7
+
+16
+
+print("aprovado")
